@@ -4,7 +4,7 @@
 
 ## Install
 
-Make a folder called `.neum` in the root of your neum folder (defaults to your source folder). Pick the version you want to use (look in the branches) and run: 
+Pick the version you want to use (look in the branches) and run in the root of your neum source folder (defaults to your source folder):
 
 ```sh
 git submodule add -b dev https://github.com/Neum-CSS/cute .neum/cute
