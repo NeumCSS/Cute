@@ -1,4 +1,20 @@
 /// Button
 
-btn => {{{ btn-color-green }}};{{{ b-1px }}};{{{ r }}};{{{ c-white }}};{{{ p-3 }}};{{{ fs-4 }}};{{{ lh-1.5 }}};{{{ w-100% }}};{{{ cursor-pointer }}}
+btn => {{
+.btn:hover,.btn:focus {{
+    filter: brightness(85%)drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)){{{var-ds-sm}}}
+}}
+.btn {{
+    {{{ btn-color-green }}}
+    {{{ b-1px }}}
+    {{{ r }}}
+    {{{ c-white }}}
+    {{{ p-3 }}}
+    {{{ fs-4 }}}
+    {{{ lh-1.5 }}}
+    {{{ w-100% }}}
+    {{{ cursor-pointer }}}
+    {{{ t-0.2 }}}
+}}
+}}
 btn-color-{} => {{{ bg-{} }}};{{{ bc-{} }}}
