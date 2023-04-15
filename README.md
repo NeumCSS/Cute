@@ -7,7 +7,7 @@
 Pick the version you want to use (look in the branches) and run in the root of your neum source folder (defaults to your source folder):
 
 ```sh
-git submodule add -b dev https://github.com/Neum-CSS/cute .neum/cute
+git submodule add -b dev https://github.com/Neum-CSS/Cute .neum/Cute
 ```
 
 Use dev for the latest version (can be breaking not recomended) or replace dev with the version you want.
